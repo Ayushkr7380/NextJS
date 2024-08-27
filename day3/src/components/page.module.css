@@ -1,0 +1,22 @@
+.main{
+   border-radius: 1rem;
+    border: 2px solid black;
+}
+.ul{
+    display: flex;
+    list-style: none;
+    gap: 1rem;
+    justify-content: center;
+    
+}
+.link{
+    color: black;
+    cursor: pointer;
+    text-decoration: none;
+    padding: .4rem .7rem;
+    border-radius: 1rem;
+}
+.link:hover{
+    background-color: black;
+    color: white;
+}
