@@ -21,20 +21,21 @@ export default function RootLayout({ children }) {
               </Link>
             </li>
             <li>
-              <Link href="/about" legacyBehavior>
-                <a>About</a>
-              </Link>
-            </li>
-            <li>
               <Link href="/contact" legacyBehavior>
                 <a>Contact</a>
               </Link>
             </li>
+            <li>
+              <Link href="/about" legacyBehavior>
+                <a>About</a>
+              </Link>
+            </li>
+            
           </ul>
         </nav>
-        <div>
+        <main>
             {children}
-        </div>
+        </main>
         </body>
     </html>
   );
