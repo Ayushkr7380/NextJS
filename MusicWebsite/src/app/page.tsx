@@ -2,6 +2,7 @@ import FeaturedCard from "@/components/FeaturedCard";
 import HeroSection from "@/components/HeroSection";
 import WhyChooseUs from "@/components/WhyChooseUs";
 import MovingCards from '@/components/MovingCards';
+import UpcomingWebinar from "@/components/UpcomingWebinar";
 
 export default function Home() {
   return (
@@ -11,6 +12,7 @@ export default function Home() {
             <FeaturedCard/>
             <WhyChooseUs/>
             <MovingCards/>
+            <UpcomingWebinar/>
         </main>
     </>
   );
