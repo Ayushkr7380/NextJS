@@ -1,6 +1,5 @@
 import Link from 'next/link'
 import { Spotlight } from "./ui/Spotlight";
-import { cn } from "@/utils/cn";
 const HeroSection = () => {
   return (
     
