@@ -1,5 +1,6 @@
 import Link from 'next/link'
 import { Spotlight } from "./ui/Spotlight";
+import { Button } from "./ui/moving-border";
 const HeroSection = () => {
   return (
     
@@ -13,7 +14,14 @@ const HeroSection = () => {
                 <p className='mt-4 font-normal text-base md:text-lg text-neutral-300 max-w-lg mx-auto'>Dive into our comprehensive music courses and transform your musical journey today. Whether you are a beginner or looking to refine your skills, join us to unlock your true potential.</p>
             </div>
             <div className='mt-4'>
-                <Link href={'/courses'}>Explore courses</Link>
+                <Link href={'/courses'}>
+                <Button
+                    borderRadius="1.75rem"
+                    className="bg-white dark:bg-slate-900 text-black dark:text-white border-neutral-200 dark:border-slate-800"
+                >
+                    Explore Courses
+                </Button>
+                </Link>
             </div>
         </div>
     
